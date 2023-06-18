@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣美食</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFEEDD;
+        }
+
+        header{
+            background-color: wheat;
+            /* padding: 10px; */
+        }
+
+        .content{
+            display: flex; 
+            float: left;
+            color: #fff;
+        }
+
+        a{ 
+            width: 100%;
+            line-height: 80px;
+            text-decoration: none;
+            font-size: 24px;
+            color:#000;
+            background-color: peachpuff;
+        }
+
+        a:hover{
+        color: #5f2e2e;
+        background-color: skyblue;
+        }       
+
+        img{ 
+        width: 50%;
+        margin: auto;
+        display: block;
+        }
+
+        footer{
+                background-color: antiquewhite;
+            }
+
+        ul {
+        display: flex;
+        justify-content:flex-end;
+        list-style: none;
+        padding: 0;
+            }
+
+        /* ul li {
+        display: inline-block;
+            } */
+
+        ul li a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #fff;
+            }
+
+        p{
+            font-size: 24px;
+        }
+
+        .location{
+            justify-content: flex-end;
+        }
+
+        @media (min-width: 320px) and (max-width: 480px) {
+            header{
+                background-color: burlywood;
+                color: #fff;
+                /* padding: 20px; */
+            }
+
+            body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: burlywood;
+        }
+            .p{
+                color: #fff;
+            }
+
+            p{
+            font-size: 20px;
+            }
+
+            footer{
+                background-color: burlywood;
+            }
+
+            a{
+                color: sandybrown;
+                font-size: 18px;
+            }
+
+            a:hover{
+            color: #5f2e2e;
+            background-color: skyblue;
+            }  
+
+            img{ 
+            max-width: 50%;
+            margin: auto;
+            display: block;
+            }
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <h1><b>台灣小吃</b></h1>
+        </div>
+        <nav>
+            <ul>
+        <div>
+            <li><a href="珍珠奶茶.HTML">珍珠奶茶</a></li>
+        </div>
+
+        <div class="location">
+        <li><a href="臭豆腐.html">臭豆腐</a></li>
+        </div>
+
+        <div class="location">
+            <li><a href="蚵仔煎.html">蚵仔煎</a></li>
+        </div>
+
+        <div class="location">
+        <li><a href="肉圓.html">肉圓</a></li>
+        </div>
+        </ul>
+    
+    </header>
+    </nav>
+    <br> 
+    <br class="Container">
+        <img src="蚵仔煎.jpg" alt="蚵仔煎">
+        <h1 class="p"><b>蚵仔煎-由來</b></h1></br>
+        <p class="p">
+            蚵仔煎是一道聞名於臺灣的小吃，在新加坡、馬來西亞類似為蠔煎，而在福建、潮汕地區有海蠣煎。</br>
+            差別在於臺灣的加入地瓜粉、太白粉，新加坡、馬來西亞以蛋為主，而福建、潮汕則以麵粉摻入為主。</br>
+            其來源眾說紛紜，最有名的傳奇是當年鄭成功攻臺之役時，荷蘭人將臺南附近所有的米糧全部藏起，以避免資助鄭成功。</br>
+            鄭軍為了節約白米，於是利用當時海灘找到的蠔仔裹以番薯粉煎炸，演變成為「蚵仔煎」。 </br>
+            金門蚵仔煎還保留一開始混入番薯粉此種做法，與台式蚵仔煎不同的是，台式蚵仔煎是後面才淋上太白粉。</br>
+            它最早的名字叫「煎䭔」，是台南安平地區一帶的老一輩的人都知道的傳統點心，</br>
+            是以加水後的番薯粉漿包裹蠔仔、豬肉、香菇等雜七雜八的食材所煎成的餅狀物。</br>
+        </p>
+    </div>
+        </section>
+    
+    <footer><a href="https://zh.wikipedia.org/zh-tw/%E8%9A%B5%E4%BB%94%E7%85%8E" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-square-heart-fill" viewBox="0 0 16 16">
+        <path d="M2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm6 3.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+    </svg>
+    了解更多關於蚵仔煎的歷史</a></footer>
+</body>
+</html>
